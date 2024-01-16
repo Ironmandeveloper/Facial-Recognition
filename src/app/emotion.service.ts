@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class EmotionService {
-  private apiUrl = 'http://19.1.1.36:8000/predict-emotion';
+  private apiUrl = 'https://19.1.1.38:8000/predict-emotion';
 
   constructor(private http: HttpClient) { }
 
